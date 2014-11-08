@@ -13,3 +13,6 @@ results
 build
 
 node_modules
+public/images/*
+*.sublime-project
+*.sublime-workspace

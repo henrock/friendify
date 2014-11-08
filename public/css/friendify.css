@@ -1,0 +1,83 @@
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+#content {
+  position: relative;
+  min-height: 100%;
+}
+
+#content_body {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 61px;
+  margin: 0 auto;
+  width: 980px;
+  text-align: center;
+}
+
+#me_info {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#me_name, #me_username {
+  display: none;
+  float: left;
+  clear: left;
+}
+
+#me_image {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#me_continue {
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  display: none;
+}
+
+#loading {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+  #loading div {
+    margin: 50px auto;
+    width: 300px;
+    background-color: rgba(230, 230, 230, 0.9);
+  }
+
+#my_friends div.friend-holder {
+  width: 60px;
+  float: left;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 61px;
+  padding: 0px;
+  overflow: hidden;
+  min-height: 0px;
+  clear: none;
+  border: 0px;
+}
